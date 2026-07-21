@@ -1,9 +1,0 @@
-# 敏感性分析环境（2026-07-06 在 macOS / Python 3.13.9 上验证）
-# 版本务必对齐，pyactr/numpy 版本不同可能导致随机流不一致、结果不可复现
-pyactr==0.3.2
-osmnx==2.1.0
-networkx==3.5
-numpy==2.3.5
-matplotlib==3.10.6
-scipy==1.16.3
-pandas==2.3.3

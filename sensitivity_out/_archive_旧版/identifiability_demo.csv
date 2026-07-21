@@ -1,6 +1,0 @@
-﻿param_i,param_j,pearson_r,abs_r>0.9
-SEEV_VALUE_SAFETY_WEIGHT,PROBE_RELIEF_RATIO,nan,
-
-param,row_sum(全指标弹性和),row_max,近零行(<0.05)
-SEEV_VALUE_SAFETY_WEIGHT,0.0000,0.0000,YES
-PROBE_RELIEF_RATIO,7.7795,4.3642,
