@@ -3,7 +3,10 @@
 This module is part of the BVI ACT-R navigation simulation workflow.
 """
 
-from .utils import clamp
+try:
+    from .utils import clamp
+except ImportError:
+    from utils import clamp
 
 EXPERTISE_FIXED = 0.8
 

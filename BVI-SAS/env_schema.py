@@ -6,7 +6,10 @@ This module is part of the BVI ACT-R navigation simulation workflow.
 import math
 import random
 
-from .utils import clamp
+try:
+    from .utils import clamp
+except ImportError:
+    from utils import clamp
 
 
 ENVIRONMENT_TYPES = {

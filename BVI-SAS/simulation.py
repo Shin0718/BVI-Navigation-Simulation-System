@@ -90,11 +90,10 @@ except ImportError:
     from pathlib import Path
 
     package_dir = Path(__file__).resolve().parent
-    project_root = package_dir.parent
-    if str(project_root) not in sys.path:
-        sys.path.insert(0, str(project_root))
+    if str(package_dir) not in sys.path:
+        sys.path.insert(0, str(package_dir))
 
-    from bvi_sa.config import (
+    from config import (
         CROSSING_WAIT_STEPS_MIN,
         CROSSING_WAIT_STEPS_MAX,
         CROSSING_TRAVERSE_STEPS_MIN,
@@ -149,9 +148,9 @@ except ImportError:
         ACTR_DYNAMIC_PM_MIN_SHARE,
         ACTR_NAV_ANNOUNCEMENT_ENABLED,
     )
-    from bvi_sa.environment import load_environment
-    from bvi_sa.inference import build_dbn, infer_risk_posterior, posterior_to_label
-    from bvi_sa.actr_setup import (
+    from environment import load_environment
+    from inference import build_dbn, infer_risk_posterior, posterior_to_label
+    from actr_setup import (
         ACTION_KEYS,
         KEY_TO_ACTION,
         build_model as _build_model_impl,
@@ -159,10 +158,10 @@ except ImportError:
         seed_memory as _seed_memory_impl,
         setup_buffers as _setup_buffers_impl,
     )
-    from bvi_sa.profile import get_user_profile_adjustments, normalize_familiarity_level
-    from bvi_sa.reporting import generate_report
-    from bvi_sa.utils import atom_to_name, clamp, mean_safe
-    from bvi_sa.env_schema import (
+    from profile import get_user_profile_adjustments, normalize_familiarity_level
+    from reporting import generate_report
+    from utils import atom_to_name, clamp, mean_safe
+    from env_schema import (
         get_chunk_activation_modulation,
         get_chunk_activation_terms,
         ENVIRONMENT_TYPES,

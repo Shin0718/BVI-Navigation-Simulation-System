@@ -20,13 +20,12 @@ except ImportError:
     from pathlib import Path
 
     package_dir = Path(__file__).resolve().parent
-    project_root = package_dir.parent
-    if str(project_root) not in sys.path:
-        sys.path.insert(0, str(project_root))
+    if str(package_dir) not in sys.path:
+        sys.path.insert(0, str(package_dir))
 
-    from bvi_sa.simulation import run_simulation
-    from bvi_sa.config import REPORT_DIR
-    from bvi_sa.profile import normalize_familiarity_level
+    from simulation import run_simulation
+    from config import REPORT_DIR
+    from profile import normalize_familiarity_level
 
 
 def load_profile_config(config_path=None, profile_name=None, familiarity=None):

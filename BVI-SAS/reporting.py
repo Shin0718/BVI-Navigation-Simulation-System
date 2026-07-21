@@ -15,7 +15,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import networkx as nx
 
-from .config import REPORT_DIR
+try:
+    from .config import REPORT_DIR
+except ImportError:
+    from config import REPORT_DIR
 
 MAP_INTERP_STEP_METERS = 8.0
 ACTR_REPORT_HIGH_THRESHOLD = 6.0
