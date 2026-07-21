@@ -1,0 +1,431 @@
+{
+  "timestamp": "20260708_213028",
+  "user_profile": {
+    "USER_ID": "default",
+    "familiarity_level": 1,
+    "FAMILIARITY_LEVEL": 1,
+    "expertise_proxy": 0.8,
+    "EXPERTISE_PROXY": 0.8,
+    "landmark_expectancy_bonus": 0.55,
+    "LANDMARK_EXPECTANCY_BONUS": 0.55,
+    "sound_source_threshold": 0.4,
+    "SOUND_SOURCE_THRESHOLD": 0.4,
+    "D": 0.5,
+    "MAS": 1.5,
+    "RT": -2.0,
+    "ANS": 0.2
+  },
+  "network": {
+    "start": "8588632",
+    "goal": "13644962503"
+  },
+  "result": {
+    "total_steps": 4175,
+    "reached_goal": true,
+    "gate_passed_count": 872,
+    "spatial_anchored_count": 2273,
+    "landmark_trigger_count": 18,
+    "landmark_active_step_count": 120,
+    "landmark_match_count": 120,
+    "stop_probe_count": 316,
+    "actr_iw_high_count": 664,
+    "actr_iw_resume_count": 710
+  },
+  "statistics": {
+    "actr_iw": {
+      "mean": 3.0452,
+      "std": 2.9817,
+      "min": 0.5302,
+      "max": 12.8353
+    },
+    "actr_wave": {
+      "mean": 2.7707,
+      "std": 0.4102,
+      "min": 1.7685,
+      "max": 6.403
+    },
+    "risk": {
+      "mean": 0.1188,
+      "std": 0.1513
+    },
+    "risk_dbn": {
+      "mean": 0.0687,
+      "std": 0.1106
+    },
+    "risk_actr": {
+      "mean": 0.1188,
+      "std": 0.1513
+    },
+    "risk_alignment": {
+      "mae": 0.0871,
+      "std_abs_diff": 0.0957
+    },
+    "net_priority": {
+      "mean": 0.0613,
+      "std": 0.0476
+    },
+    "salience": {
+      "mean": 0.238,
+      "std": 0.093
+    },
+    "intensity": {
+      "mean": 0.308,
+      "std": 0.1566
+    }
+  },
+  "risk_distribution": {
+    "low": 3534,
+    "medium": 641,
+    "high": 0
+  },
+  "risk_distribution_dbn": {
+    "low": 1243,
+    "medium": 2925,
+    "high": 7
+  },
+  "risk_distribution_actr": {
+    "low": 3534,
+    "medium": 641,
+    "high": 0
+  },
+  "action_distribution": {
+    "move_direct": 3405,
+    "wait_at_red": 454,
+    "stop_and_probe": 316
+  },
+  "landmark_match_stats": {
+    "generic": {
+      "count": 120,
+      "mean_bonus": 0.55
+    }
+  },
+  "landmark_trigger_stats": {
+    "generic": {
+      "count": 18,
+      "mean_bonus": 0.55
+    }
+  },
+  "key_events_count": 4424,
+  "environment_schema_stats": {
+    "intersection": {
+      "total_steps": 902,
+      "landmark_triggered": 5,
+      "landmark_active_steps": 33,
+      "landmark_rate": 0.0366,
+      "landmark_trigger_rate": 0.0055,
+      "error_mean": 1.5499,
+      "error_std": 0.4978
+    },
+    "tactile_guidance": {
+      "total_steps": 1971,
+      "landmark_triggered": 7,
+      "landmark_active_steps": 38,
+      "landmark_rate": 0.0193,
+      "landmark_trigger_rate": 0.0036,
+      "error_mean": 1.2374,
+      "error_std": 0.4256
+    },
+    "flat_road": {
+      "total_steps": 1198,
+      "landmark_triggered": 4,
+      "landmark_active_steps": 36,
+      "landmark_rate": 0.0301,
+      "landmark_trigger_rate": 0.0033,
+      "error_mean": 1.3297,
+      "error_std": 0.4703
+    },
+    "uneven_natural": {
+      "total_steps": 3,
+      "landmark_triggered": 0,
+      "landmark_active_steps": 0,
+      "landmark_rate": 0.0,
+      "landmark_trigger_rate": 0.0,
+      "error_mean": 1.3333,
+      "error_std": 0.5774
+    },
+    "slope_surface": {
+      "total_steps": 21,
+      "landmark_triggered": 2,
+      "landmark_active_steps": 11,
+      "landmark_rate": 0.5238,
+      "landmark_trigger_rate": 0.0952,
+      "error_mean": 1.4762,
+      "error_std": 0.5118
+    },
+    "height_drop": {
+      "total_steps": 41,
+      "landmark_triggered": 0,
+      "landmark_active_steps": 0,
+      "landmark_rate": 0.0,
+      "landmark_trigger_rate": 0.0,
+      "error_mean": 1.3171,
+      "error_std": 0.4711
+    }
+  },
+  "module_stats": {
+    "auditory": {
+      "label": "听觉",
+      "A_mean": 0.2447,
+      "E_mean": 1.1959,
+      "dt_mean_s": 0.033,
+      "IW_mean": 0.1078
+    },
+    "tactile": {
+      "label": "触觉(感知)",
+      "A_mean": 0.34,
+      "E_mean": 1.1907,
+      "dt_mean_s": 0.0457,
+      "IW_mean": 0.1892
+    },
+    "manual": {
+      "label": "执行(manual)",
+      "A_mean": 0.8913,
+      "E_mean": 1.0041,
+      "dt_mean_s": 0.0749,
+      "IW_mean": 0.1837
+    },
+    "central": {
+      "label": "中央",
+      "A_mean": 0.1447,
+      "E_mean": 1.0041,
+      "dt_mean_s": 0.0143,
+      "IW_mean": 0.5451
+    },
+    "memory": {
+      "label": "记忆",
+      "A_mean": 0.1701,
+      "E_mean": 2.0,
+      "dt_mean_s": 0.0119,
+      "IW_mean": 2.0196
+    }
+  },
+  "module_data_csv": "/Users/ellawu/UCI/research/项目2/Clear_ActR/reports/sim_module_data_20260708_213028.csv",
+  "initial_production_utilities": {
+    "total_count": 55,
+    "by_priority": [
+      {
+        "production": "bk_overload_none_to_starting",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_starting_to_sustained",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_starting_to_none",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_sustained_to_none",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_short_to_present",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_long_to_present",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_present_to_absent_short",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_short_to_long",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_none_to_probing",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_safe_long",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_probing_under_threat",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_none_after_move",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_safe_long_to_none_after_move",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_low",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_medium",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_high_from_low",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_high_from_medium",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_low_from_high",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_medium_from_high",
+        "utility": 14.0
+      },
+      {
+        "production": "crossing_red_wait",
+        "utility": 12.0
+      },
+      {
+        "production": "cue_just_entered_crossing_probe",
+        "utility": 11.8
+      },
+      {
+        "production": "crossing_green_probe_when_overloaded",
+        "utility": 11.6
+      },
+      {
+        "production": "crossing_green_probe_when_high_risk",
+        "utility": 11.6
+      },
+      {
+        "production": "crossing_green_probe_when_reference_lost",
+        "utility": 11.6
+      },
+      {
+        "production": "commit_move_direct",
+        "utility": 11.5
+      },
+      {
+        "production": "commit_stop_and_probe",
+        "utility": 11.5
+      },
+      {
+        "production": "commit_wait_at_red",
+        "utility": 11.5
+      },
+      {
+        "production": "release_goal_after_commit",
+        "utility": 11.0
+      },
+      {
+        "production": "crossing_green_go",
+        "utility": 10.0
+      },
+      {
+        "production": "crossing_obstacle_alert",
+        "utility": 9.5
+      },
+      {
+        "production": "react_cane_obstacle_bottom_up",
+        "utility": 9.0
+      },
+      {
+        "production": "crossing_guidance_lost",
+        "utility": 8.8
+      },
+      {
+        "production": "react_horn_at_crossing",
+        "utility": 8.0
+      },
+      {
+        "production": "react_reverse_beep_at_crossing",
+        "utility": 7.5
+      },
+      {
+        "production": "cue_overload_sustained_probe",
+        "utility": 6.7
+      },
+      {
+        "production": "predict_goal_high_risk",
+        "utility": 6.5
+      },
+      {
+        "production": "cue_post_probe_safe_go",
+        "utility": 6.2
+      },
+      {
+        "production": "predict_goal_medium_risk",
+        "utility": 6.0
+      },
+      {
+        "production": "predict_goal_low_risk",
+        "utility": 6.0
+      },
+      {
+        "production": "react_cane_tactile_bottom_up",
+        "utility": 6.0
+      },
+      {
+        "production": "predict_goal_high_load",
+        "utility": 5.75
+      },
+      {
+        "production": "confirm_landmark_audio_retrieved",
+        "utility": 5.6
+      },
+      {
+        "production": "attend_gated_sound_high",
+        "utility": 5.5
+      },
+      {
+        "production": "cue_reference_long_absent_probe",
+        "utility": 5.2
+      },
+      {
+        "production": "probe_when_spatial_lost",
+        "utility": 5.0
+      },
+      {
+        "production": "request_landmark_audio_from_dm",
+        "utility": 5.0
+      },
+      {
+        "production": "attend_gated_tactile_high",
+        "utility": 5.0
+      },
+      {
+        "production": "react_horn_on_sidewalk",
+        "utility": 4.9
+      },
+      {
+        "production": "react_reverse_beep_on_sidewalk",
+        "utility": 4.4
+      },
+      {
+        "production": "react_cane_curb_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "react_cane_wall_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "react_cane_railing_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "probe_when_spatial_drifting",
+        "utility": 3.7
+      },
+      {
+        "production": "react_human_activity_bottom_up",
+        "utility": 3.5
+      },
+      {
+        "production": "react_surface_change_bottom_up",
+        "utility": 3.5
+      }
+    ]
+  },
+  "typical_outputs_markdown": "/Users/ellawu/UCI/research/项目2/Clear_ActR/reports/sim_typical_outputs_20260708_213028.md",
+  "map_image": "/Users/ellawu/UCI/research/项目2/Clear_ActR/reports/sim_map_20260708_213028.png",
+  "actr_overview_chart_image": "/Users/ellawu/UCI/research/项目2/Clear_ActR/reports/sim_actr_dashboard_20260708_213028.png"
+}

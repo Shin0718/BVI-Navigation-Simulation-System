@@ -1,0 +1,3 @@
+﻿parameter,category,risk_mean,risk_relief,probe_rate,response_prob,response_delay_s,post_trigger_probe,workload,episode_length,retrieval_rate,probe_time_share,veh_time_share
+SEEV_VALUE_SAFETY_WEIGHT,风险感知与风险融合,0.0126,0.0036,0.0100,0.0000,0.0000,0.0000,0.0102,0.0093,0.0000,0.0089,0.0045
+PROBE_RELIEF_RATIO,探测与恢复,0.1376,1.5174,0.8267,2.1726,5.9514,1.6327,0.1384,0.1189,0.8707,1.0616,0.8467

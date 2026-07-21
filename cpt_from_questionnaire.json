@@ -1,0 +1,141 @@
+{
+  "EXPERT_CPT": {
+    "ambient_noise": {
+      "low": 0.542,
+      "medium": 0.542,
+      "high": 0.583
+    },
+    "distance_feedback": {
+      "low": 0.333,
+      "medium": 0.625,
+      "high": 0.708
+    },
+    "vehicle_approach": {
+      "low": 0.292,
+      "medium": 0.5,
+      "high": 0.5
+    },
+    "cane_hit": {
+      "low": 0.458,
+      "medium": 0.5,
+      "high": 0.75
+    },
+    "surface_change": {
+      "low": 0.208,
+      "medium": 0.375,
+      "high": 0.542
+    },
+    "surface_risky": {
+      "low": 0.417,
+      "medium": 0.542,
+      "high": 0.583
+    },
+    "reference_available": {
+      "low": 0.75,
+      "medium": 0.5,
+      "high": 0.208
+    },
+    "on_tactile_guidance": {
+      "low": 0.375,
+      "medium": 0.167,
+      "high": 0.167
+    },
+    "at_intersection": {
+      "low": 0.458,
+      "medium": 0.625,
+      "high": 0.833
+    },
+    "crossing_active": {
+      "low": 0.5,
+      "medium": 0.792,
+      "high": 0.833
+    }
+  },
+  "meta": {
+    "input": "CPT.csv",
+    "reverse_protective": true,
+    "enforce_monotonic": true,
+    "diagnostics": {
+      "ambient_noise": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "distance_feedback": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "vehicle_approach": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "cane_hit": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "surface_change": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "surface_risky": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "reference_available": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": true
+      },
+      "on_tactile_guidance": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": true
+      },
+      "at_intersection": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      },
+      "crossing_active": {
+        "counts": {
+          "low": 4,
+          "medium": 4,
+          "high": 4
+        },
+        "protective": false
+      }
+    }
+  }
+}

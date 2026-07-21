@@ -1,0 +1,48 @@
+{
+  "theta_star": {
+    "MEMORY_ACTIVE_RETRIEVAL_TH": 0.06,
+    "MEMORY_ACTIVE_ABSENT_STEPS_TH": 18,
+    "PROBE_RELIEF_RATIO": 0.5,
+    "LANDMARK_DECAY_RATE": 0.82,
+    "VEHICLE_APPROACH_SALIENCE_GATE_SIDEWALK": 0.28,
+    "LOOMING_BOOST_PEAK": 0.35,
+    "LOOMING_BOOST_DECAY": 0.9
+  },
+  "defaults": {
+    "MEMORY_ACTIVE_RETRIEVAL_TH": 0.15,
+    "MEMORY_ACTIVE_ABSENT_STEPS_TH": 11,
+    "PROBE_RELIEF_RATIO": 0.4,
+    "LANDMARK_DECAY_RATE": 0.82,
+    "VEHICLE_APPROACH_SALIENCE_GATE_SIDEWALK": 0.4,
+    "LOOMING_BOOST_PEAK": 0.35,
+    "LOOMING_BOOST_DECAY": 0.8
+  },
+  "L_unified_star": 5.937040404044381,
+  "L_memoryTH_star": 14.417026274231786,
+  "metrics_star": {
+    "veh_share": 0.01569249465527451,
+    "veh_iw_mean": 4.212427845117846,
+    "veh_stop_rate": 17.06228956228956,
+    "veh_reaction_prob": 0.26313131313131316,
+    "veh_reaction_delay_s": 0.43758666666666385,
+    "lm_share": 0.017679743464866494,
+    "lm_iw_mean": 2.1094671704260652,
+    "lm_stop_rate": 0.48809523809523814,
+    "lm_relief_effect": 0.05444938345864662,
+    "lm_stop_after_rate": 0.019523809523809523,
+    "tac_share": 0.5518203828010073,
+    "tac_iw_mean": 1.9462066130815123,
+    "tac_stop_rate": 0.8475025139858143,
+    "tac_risk_mean": 0.03192068034559721,
+    "noref_share": 0.21927053820357595,
+    "noref_iw_mean": 2.070587354677607,
+    "noref_stop_rate": 5.98248073384035,
+    "noref_ep_len": 10.487732453808425,
+    "noref_retrieval_per100": 0.9871934050498143,
+    "cross_share": 0.22044394930903982,
+    "cross_iw_mean": 4.1072536061440434,
+    "cross_stop_rate": 25.506371066127667,
+    "cross_wait_s": 219.57239999999973
+  },
+  "elapsed_min": 210.98187811374663
+}

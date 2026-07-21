@@ -1,0 +1,439 @@
+{
+  "timestamp": "20260630_183458",
+  "user_profile": {
+    "USER_ID": "default",
+    "familiarity_level": 1.0,
+    "FAMILIARITY_LEVEL": 1.0,
+    "expertise_proxy": 0.8,
+    "EXPERTISE_PROXY": 0.8,
+    "landmark_expectancy_bonus": 0.55,
+    "LANDMARK_EXPECTANCY_BONUS": 0.55,
+    "sound_source_threshold": 0.4,
+    "SOUND_SOURCE_THRESHOLD": 0.4,
+    "D": 0.5,
+    "MAS": 1.5,
+    "RT": -2.0,
+    "ANS": 0.2
+  },
+  "network": {
+    "start": "8588632",
+    "goal": "13644962503"
+  },
+  "result": {
+    "total_steps": 4473,
+    "reached_goal": true,
+    "gate_passed_count": 1076,
+    "spatial_anchored_count": 2149,
+    "landmark_trigger_count": 61,
+    "landmark_active_step_count": 435,
+    "landmark_match_count": 435,
+    "stop_probe_count": 548,
+    "actr_iw_high_count": 928,
+    "actr_iw_resume_count": 1045
+  },
+  "statistics": {
+    "actr_iw": {
+      "mean": 3.9312,
+      "std": 3.2761,
+      "min": 0.4975,
+      "max": 13.3118
+    },
+    "actr_wave": {
+      "mean": 3.8231,
+      "std": 0.6053,
+      "min": 2.051,
+      "max": 7.8129
+    },
+    "risk": {
+      "mean": 0.1365,
+      "std": 0.1704
+    },
+    "risk_dbn": {
+      "mean": 0.1006,
+      "std": 0.1705
+    },
+    "risk_actr": {
+      "mean": 0.1365,
+      "std": 0.1704
+    },
+    "risk_alignment": {
+      "mae": 0.1152,
+      "std_abs_diff": 0.14
+    },
+    "net_priority": {
+      "mean": 0.287,
+      "std": 0.254
+    },
+    "salience": {
+      "mean": 0.3843,
+      "std": 0.1688
+    },
+    "intensity": {
+      "mean": 0.5789,
+      "std": 0.2654
+    }
+  },
+  "risk_distribution": {
+    "low": 3583,
+    "medium": 890,
+    "high": 0
+  },
+  "risk_distribution_dbn": {
+    "low": 1362,
+    "medium": 2943,
+    "high": 168
+  },
+  "risk_distribution_actr": {
+    "low": 3583,
+    "medium": 890,
+    "high": 0
+  },
+  "action_distribution": {
+    "move_direct": 3405,
+    "stop_and_probe": 548,
+    "wait_at_red": 520
+  },
+  "landmark_match_stats": {
+    "generic": {
+      "count": 435,
+      "mean_bonus": 0.55
+    }
+  },
+  "landmark_trigger_stats": {
+    "generic": {
+      "count": 61,
+      "mean_bonus": 0.55
+    }
+  },
+  "key_events_count": 5097,
+  "environment_schema_stats": {
+    "intersection": {
+      "total_steps": 991,
+      "landmark_triggered": 11,
+      "landmark_active_steps": 89,
+      "landmark_rate": 0.0898,
+      "landmark_trigger_rate": 0.0111,
+      "error_mean": 1.5146,
+      "error_std": 0.5
+    },
+    "tactile_guidance": {
+      "total_steps": 1730,
+      "landmark_triggered": 28,
+      "landmark_active_steps": 180,
+      "landmark_rate": 0.104,
+      "landmark_trigger_rate": 0.0162,
+      "error_mean": 1.222,
+      "error_std": 0.4157
+    },
+    "flat_road": {
+      "total_steps": 1166,
+      "landmark_triggered": 13,
+      "landmark_active_steps": 119,
+      "landmark_rate": 0.1021,
+      "landmark_trigger_rate": 0.0111,
+      "error_mean": 1.3388,
+      "error_std": 0.4735
+    },
+    "uneven_natural": {
+      "total_steps": 367,
+      "landmark_triggered": 5,
+      "landmark_active_steps": 27,
+      "landmark_rate": 0.0736,
+      "landmark_trigger_rate": 0.0136,
+      "error_mean": 1.3787,
+      "error_std": 0.4857
+    },
+    "slope_surface": {
+      "total_steps": 125,
+      "landmark_triggered": 0,
+      "landmark_active_steps": 0,
+      "landmark_rate": 0.0,
+      "landmark_trigger_rate": 0.0,
+      "error_mean": 1.472,
+      "error_std": 0.5012
+    },
+    "height_drop": {
+      "total_steps": 55,
+      "landmark_triggered": 3,
+      "landmark_active_steps": 17,
+      "landmark_rate": 0.3091,
+      "landmark_trigger_rate": 0.0545,
+      "error_mean": 1.5091,
+      "error_std": 0.5045
+    }
+  },
+  "module_stats": {
+    "auditory": {
+      "label": "听觉",
+      "A_mean": 0.6631,
+      "E_mean": 1.192,
+      "dt_mean_s": 0.0564,
+      "IW_mean": 0.3661
+    },
+    "tactile": {
+      "label": "触觉(感知)",
+      "A_mean": 0.4565,
+      "E_mean": 1.2068,
+      "dt_mean_s": 0.0388,
+      "IW_mean": 0.2439
+    },
+    "manual": {
+      "label": "执行(manual)",
+      "A_mean": 0.8837,
+      "E_mean": 1.0036,
+      "dt_mean_s": 0.0821,
+      "IW_mean": 0.1673
+    },
+    "central": {
+      "label": "中央",
+      "A_mean": 0.1759,
+      "E_mean": 1.0036,
+      "dt_mean_s": 0.016,
+      "IW_mean": 0.6089
+    },
+    "memory": {
+      "label": "记忆",
+      "A_mean": 0.233,
+      "E_mean": 2.0,
+      "dt_mean_s": 0.0169,
+      "IW_mean": 2.545
+    }
+  },
+  "module_data_csv": "C:\\Users\\Administrator\\Desktop\\态势感知\\pyactr\\reports\\sim_module_data_20260630_183458.csv",
+  "initial_production_utilities": {
+    "total_count": 57,
+    "by_priority": [
+      {
+        "production": "bk_overload_none_to_starting",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_starting_to_sustained",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_starting_to_none",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_overload_sustained_to_none",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_short_to_present",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_long_to_present",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_present_to_absent_short",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_reference_short_to_long",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_none_to_probing",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_safe_long",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_probing_under_threat",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_probing_to_none_after_move",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_safety_safe_long_to_none_after_move",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_low",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_medium",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_high_from_low",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_high_from_medium",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_low_from_high",
+        "utility": 14.0
+      },
+      {
+        "production": "bk_sync_risk_medium_from_high",
+        "utility": 14.0
+      },
+      {
+        "production": "crossing_red_wait",
+        "utility": 12.0
+      },
+      {
+        "production": "cue_just_entered_crossing_probe",
+        "utility": 11.8
+      },
+      {
+        "production": "crossing_green_probe_when_overloaded",
+        "utility": 11.6
+      },
+      {
+        "production": "crossing_green_probe_when_high_risk",
+        "utility": 11.6
+      },
+      {
+        "production": "crossing_green_probe_when_reference_lost",
+        "utility": 11.6
+      },
+      {
+        "production": "commit_move_direct",
+        "utility": 11.5
+      },
+      {
+        "production": "commit_stop_and_probe",
+        "utility": 11.5
+      },
+      {
+        "production": "commit_wait_at_red",
+        "utility": 11.5
+      },
+      {
+        "production": "release_goal_after_commit",
+        "utility": 11.0
+      },
+      {
+        "production": "crossing_green_go",
+        "utility": 10.0
+      },
+      {
+        "production": "crossing_obstacle_alert",
+        "utility": 9.5
+      },
+      {
+        "production": "react_vehicle_approach_at_crossing",
+        "utility": 9.0
+      },
+      {
+        "production": "react_cane_obstacle_bottom_up",
+        "utility": 9.0
+      },
+      {
+        "production": "crossing_guidance_lost",
+        "utility": 8.8
+      },
+      {
+        "production": "react_horn_at_crossing",
+        "utility": 8.0
+      },
+      {
+        "production": "react_reverse_beep_at_crossing",
+        "utility": 7.5
+      },
+      {
+        "production": "cue_overload_sustained_probe",
+        "utility": 6.7
+      },
+      {
+        "production": "predict_goal_high_risk",
+        "utility": 6.5
+      },
+      {
+        "production": "cue_post_probe_safe_go",
+        "utility": 6.2
+      },
+      {
+        "production": "predict_goal_medium_risk",
+        "utility": 6.0
+      },
+      {
+        "production": "predict_goal_low_risk",
+        "utility": 6.0
+      },
+      {
+        "production": "react_cane_tactile_bottom_up",
+        "utility": 6.0
+      },
+      {
+        "production": "predict_goal_high_load",
+        "utility": 5.75
+      },
+      {
+        "production": "confirm_landmark_audio_retrieved",
+        "utility": 5.6
+      },
+      {
+        "production": "attend_gated_sound_high",
+        "utility": 5.5
+      },
+      {
+        "production": "cue_reference_long_absent_probe",
+        "utility": 5.2
+      },
+      {
+        "production": "react_vehicle_approach_on_sidewalk",
+        "utility": 5.2
+      },
+      {
+        "production": "probe_when_spatial_lost",
+        "utility": 5.0
+      },
+      {
+        "production": "request_landmark_audio_from_dm",
+        "utility": 5.0
+      },
+      {
+        "production": "attend_gated_tactile_high",
+        "utility": 5.0
+      },
+      {
+        "production": "react_horn_on_sidewalk",
+        "utility": 4.9
+      },
+      {
+        "production": "react_reverse_beep_on_sidewalk",
+        "utility": 4.4
+      },
+      {
+        "production": "react_cane_curb_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "react_cane_wall_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "react_cane_railing_bottom_up",
+        "utility": 4.0
+      },
+      {
+        "production": "probe_when_spatial_drifting",
+        "utility": 3.7
+      },
+      {
+        "production": "react_human_activity_bottom_up",
+        "utility": 3.5
+      },
+      {
+        "production": "react_surface_change_bottom_up",
+        "utility": 3.5
+      }
+    ]
+  },
+  "typical_outputs_markdown": "C:\\Users\\Administrator\\Desktop\\态势感知\\pyactr\\reports\\sim_typical_outputs_20260630_183458.md",
+  "map_image": "C:\\Users\\Administrator\\Desktop\\态势感知\\pyactr\\reports\\sim_map_20260630_183458.png",
+  "actr_overview_chart_image": "C:\\Users\\Administrator\\Desktop\\态势感知\\pyactr\\reports\\sim_actr_dashboard_20260630_183458.png"
+}

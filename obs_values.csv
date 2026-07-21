@@ -1,0 +1,13 @@
+metric,obs_value,obs_source
+veh_share,0.00219,"实测‘5~6次’车辆逼近事件，按每事件约3秒时间窗、三地总时长7550秒换算：5.5×3/7550=0.00219"
+veh_stop_rate,15.4,obs_template_0708_333 直填
+veh_reaction_prob,0.44,obs_template_0708_333 直填
+veh_reaction_delay_s,0.6,obs_template_0708_333 直填
+lm_share,0.018,obs_template_0708_333 直填
+lm_stop_after_rate,0.0167,obs_template_0708_333 直填
+tac_share,0.39,obs_template_0708_333 直填
+tac_stop_rate,3.624,obs_template_0708_333 直填
+noref_share,0.56,obs_template_0708_333 直填
+noref_stop_rate,0.0,"实测‘接近0’（标注备注：过马路时失参照也硬着头皮走）；按0处理→退化为绝对误差，避免除以任意小数导致损失爆炸"
+noref_ep_len,8.28,"实测4.5秒×1.84步/秒=8.28步"
+noref_retrieval_per100,0.7,obs_template_0708_333 直填

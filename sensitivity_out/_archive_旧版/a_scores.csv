@@ -1,0 +1,13 @@
+﻿metric,metric_cn,a_raw(列和),a_normalized
+stop_probe_per_100steps,停探测频率,1.3989,0.0335
+veh_reaction_prob,车辆逼近反应概率,6.0092,0.1440
+veh_reaction_delay_s,车辆逼近反应延迟,25.9099,0.6209
+iw_mean,认知负荷均值,0.6656,0.0159
+iw_p95,认知负荷峰值,0.1669,0.0040
+iw_high_ratio,高负荷占比,1.8529,0.0444
+crossing_wait_s,路口等待时长,1.8036,0.0432
+ref_loss_episodes_per_100steps,参照丢失次数,0.3796,0.0091
+deprivation_mean,感觉剥夺均值,0.4603,0.0110
+obstacle_hits_per_100steps,障碍接触频率,2.7972,0.0670
+total_sim_time_s,完成时间,0.1030,0.0025
+total_steps,总步数,0.1852,0.0044

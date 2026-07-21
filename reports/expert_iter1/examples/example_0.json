@@ -1,0 +1,16 @@
+{
+  "run_id": 0,
+  "events": [
+    {
+      "t": 0.1,
+      "type": "vehicle_approach",
+      "net_priority": 0.5
+    },
+    {
+      "t": 0.5,
+      "type": "seev_gate_passed",
+      "action": "stop_and_probe",
+      "net_priority": 0.9
+    }
+  ]
+}
